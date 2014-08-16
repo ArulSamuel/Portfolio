@@ -1,0 +1,17 @@
+course_from,course_name,learning,projects,verification
+Coursera,The Data Scientist's Toolbox,a,,https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=4RQUMFSS4N
+Coursera,R Programming,a,,https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=HAAHBAJ7HM
+Coursera,Getting and Cleaning Data,a,https://github.com/ArulSamuel/dataCleaningCoursera,https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=32J3MX92LU
+Coursera,Exploratory Data Analysis,a,https://github.com/ArulSamuel/ExData_Plotting1,https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=6WQUJ9VZQJ
+Coursera,Reproducible Research,a,https://github.com/ArulSamuel/RepData_PeerAssessment1|http://rpubs.com/ArulSamuelR/23705,
+Coursera,Statistical Inference,a,,https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=QKMKAUJ485
+Coursera,Pattern Oriented Software Architecture,a,,
+Coursera,Machine Learning,a,,
+USC,"Analysis of Algorithms, CSCI 570",a,,
+USC,"Software Engineering - I, CSCI 577A",a,,
+USC,"Software Engineering - I, CSCI 577B",a,,
+USC,"Artificial Intelligence, CSCI 561",a,,
+USC,"Advanced Big Data Analytics, CSCI 686",a,,
+USC,"Software Management and Economics, CSCI 510",a,,
+Undergraduate,Operating Systems,a,,
+Undergraduate,Database systems,a,,

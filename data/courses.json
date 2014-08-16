@@ -1,0 +1,116 @@
+{
+    "Courses": [
+        {
+            "projects": "", 
+            "course_name": "The Data Scientist's Toolbox", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=4RQUMFSS4N"
+        }, 
+        {
+            "projects": "", 
+            "course_name": "R Programming", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=HAAHBAJ7HM"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/dataCleaningCoursera", 
+            "course_name": "Getting and Cleaning Data", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=32J3MX92LU"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/ExData_Plotting1", 
+            "course_name": "Exploratory Data Analysis", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=6WQUJ9VZQJ"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/RepData_PeerAssessment1|http://rpubs.com/ArulSamuelR/23705", 
+            "course_name": "Reproducible Research", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Statistical Inference", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=QKMKAUJ485"
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Pattern Oriented Software Architecture", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Machine Learning", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Analysis of Algorithms, CSCI 570", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Engineering - I, CSCI 577A", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Engineering - I, CSCI 577B", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Artificial Intelligence, CSCI 561", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Advanced Big Data Analytics, CSCI 686", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Management and Economics, CSCI 510", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Operating Systems", 
+            "course_from": "Undergraduate", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Database systems", 
+            "course_from": "Undergraduate", 
+            "learning": "a", 
+            "verification": ""
+        }
+    ]
+}
