@@ -1,0 +1,218 @@
+{
+    "Courses": [
+        {
+            "projects": "", 
+            "course_name": "The Data Scientist's Toolbox", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=4RQUMFSS4N"
+        }, 
+        {
+            "projects": "", 
+            "course_name": "R Programming", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=HAAHBAJ7HM"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/dataCleaningCoursera", 
+            "course_name": "Getting and Cleaning Data", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=32J3MX92LU"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/ExData_Plotting1", 
+            "course_name": "Exploratory Data Analysis", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=6WQUJ9VZQJ"
+        }, 
+        {
+            "projects": "https://github.com/ArulSamuel/RepData_PeerAssessment1|http://rpubs.com/ArulSamuelR/23705", 
+            "course_name": "Reproducible Research", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Statistical Inference", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": "https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=QKMKAUJ485"
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Pattern Oriented Software Architecture", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Machine Learning", 
+            "course_from": "Coursera", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Analysis of Algorithms, CSCI 570", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Engineering - I, CSCI 577A", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Engineering - I, CSCI 577B", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Artificial Intelligence, CSCI 561", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Advanced Big Data Analytics, CSCI 686", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Software Management and Economics, CSCI 510", 
+            "course_from": "USC", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Operating Systems", 
+            "course_from": "Undergraduate", 
+            "learning": "a", 
+            "verification": ""
+        }, 
+        {
+            "projects": "", 
+            "course_name": "Database systems", 
+            "course_from": "Undergraduate", 
+            "learning": "a", 
+            "verification": ""
+        }
+    ], 
+    "Projects": [
+        {
+            "project_end": "May-14", 
+            "project_name": "Survey of Music Recommender Systems", 
+            "description": "Processed and analyzed the Million Song Dataset for the effect of song attributes in making predictions. | Implemented the Nearest Neighbor with vector cosine distance metric and Matrix Factorization approaches for item-based and user-based similarity prediction.", 
+            "project_start": "Feb-14", 
+            "github_link": "", 
+            "project_type": "Academic", 
+            "project_context": "Advanced Big Data Analytics", 
+            "project_institution": "USC"
+        }, 
+        {
+            "project_end": "May-14", 
+            "project_name": "lose4good.org", 
+            "description": "Provides a platform for weight-losers to get sponsorship thereby funding the charity organizations. | Collaborated with the client to design the architecture and UML diagrams using Visual Paradigm. | Developed the goal creation module using Django, Python and HTML.", 
+            "project_start": "Aug-13", 
+            "github_link": "", 
+            "project_type": "Academic", 
+            "project_context": " Software Engineering Real-time Client Project", 
+            "project_institution": "USC"
+        }, 
+        {
+            "project_end": "Apr-14", 
+            "project_name": "Automating Software Project Success Prediction using Supervised Learning", 
+            "description": "Extracted and wrangled data for the history of software project success factors. | Implemented Logistic Regression classifier for making predictions and to analyze effects of success critical factors.", 
+            "project_start": "Mar-14", 
+            "github_link": "", 
+            "project_type": "Academic", 
+            "project_context": "Software Engineering", 
+            "project_institution": "USC"
+        }, 
+        {
+            "project_end": "Mar-14", 
+            "project_name": "Topic Modeling in New York Times Corpus", 
+            "description": "Developed a Topic Modeling algorithm using Latent Dirichlet Allocation (LDA) for identifying the multinomial distribution of topics in the dataset using C++. | Optimized the execution of algorithm using OpenMP for parallelization.", 
+            "project_start": "Feb-14", 
+            "github_link": "", 
+            "project_type": "Academic", 
+            "project_context": "Advanced Big Data Analytics", 
+            "project_institution": "USC"
+        }, 
+        {
+            "project_end": "May-11", 
+            "project_name": "The Design and Implementation of University Digital Archive based on DSpace          ", 
+            "description": "Designed and developed a web based Digital archival system using the COTS - Dspace, JSP, HTML, CSS.", 
+            "project_start": "Jul-10", 
+            "github_link": "http:df", 
+            "project_type": "Academic", 
+            "project_context": "Undergraduate Final Project", 
+            "project_institution": "Anand Institute of Higher Technology"
+        }, 
+        {
+            "project_end": "Jun-13", 
+            "project_name": "", 
+            "description": "Worked and tested the PEAS Workflow Management module in the Finacle Universal Banking Solution project. |  Designed and developed a tool for Process workflow automation using Core Java, Swings and XML.", 
+            "project_start": "Aug-11", 
+            "github_link": "abc", 
+            "project_type": "WorkExp", 
+            "project_context": "Systems Engineer, J2EE technology", 
+            "project_institution": "Infosys Ltd, Chennai, India"
+        }, 
+        {
+            "project_end": "Jan-14", 
+            "project_name": "Analysis of Web Server Log                    ", 
+            "description": "Developed code to analyze the web server log using Cloudera CDH and mapreduce programming paradigm.", 
+            "project_start": "Jan-14", 
+            "github_link": "", 
+            "project_type": "Hobby", 
+            "project_context": "", 
+            "project_institution": ""
+        }, 
+        {
+            "project_end": "Jun-12", 
+            "project_name": "Online Survey J2EE Project", 
+            "description": "Involved in the end-to-end implementation of the online survey website using JSP, jQuery, Primefaces.", 
+            "project_start": "Apr-12", 
+            "github_link": "", 
+            "project_type": "Hobby", 
+            "project_context": "", 
+            "project_institution": ""
+        }, 
+        {
+            "project_end": "Present", 
+            "project_name": "", 
+            "description": "Developed scripts for performing data cleaning and multi-label classification of University Course Evaluation Data using R, Python and Weka. | Developed Python scripts and SQL stored procedures for automating day-to-day data cleaning activities.", 
+            "project_start": "May-14", 
+            "github_link": "", 
+            "project_type": "WorkExp", 
+            "project_context": "Data Analyst (Student Worker)", 
+            "project_institution": "USC"
+        }, 
+        {
+            "project_end": "Present", 
+            "project_name": "Sports Analytics Recommender System", 
+            "description": "Built web scrapers for collecting sports data and tweets using Python Scrapy and Tweepy API. | Created a data pipeline for the social media recommender systems using Python and MongoDB.", 
+            "project_start": "May-14", 
+            "github_link": "", 
+            "project_type": "WorkExp", 
+            "project_context": "Data Engineer (Intern)", 
+            "project_institution": "Wavelio"
+        }
+    ]
+}
