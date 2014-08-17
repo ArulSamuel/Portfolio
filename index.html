@@ -20,6 +20,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$(".grid3-buttons").click(function() {
 				displayProjects(this.id);				    			
 			});
+			$(".grid4-buttons").click(function() {
+				displayCourses(this.id);				    			
+			});
 		});
 		var itemsJSON;
 		function loadJson() 
@@ -47,6 +50,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					}
 					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p></div><div class="clear"></div></div>';
 					$('#projects-div').append(str);
+				}
+			}	
+		}
+		function displayCourses(courseSource)
+		{	
+			$('#courses-div').empty();
+			for(i=0	;i<itemsJSON.Courses.length;i++)
+			{
+
+				if(itemsJSON.Courses[i].course_from == courseSource)
+				{
+					var course = itemsJSON.Courses[i];
+					var course_name = course.course_name;
+					var learning = course.learning;
+					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+course_name+'</h3>,<h4>'+courseSource+'</h4><br/><p>'+learning+'</p></div></div>';
+					$('#courses-div').append(str);
 				}
 			}	
 		}		
@@ -121,9 +140,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    <!-- Content (Projects) added dynamically -->
 			</div>
 		</div>
-		<div class="grid3-header" id="courses">
-			<h3> My Courses </h3>
-			<p> My list of courses </p>
+		<div class="grid3">
+			<div class="grid3-header" id="courses">
+				<h3>Courses</h3>
+			</div>
+			<div class = "grid3-buttons-div" align = "center">
+				<ul>
+					<li><button class = "grid4-buttons" id = "Coursera">Coursera</button></li>
+					<li><button class = "grid4-buttons" id = "USC">USC</button></li>
+					<li><button class = "grid4-buttons" id = "Undergraduate">Undergraduate</button></li>
+				</ul>
+			</div>
+			<div class = "button-g2-click-div" id = "courses-div">
+			    <!-- Content (Courses) added dynamically -->
+			</div>
 		</div>
 		
 		<div class="grid3-header" id="aboutMe">

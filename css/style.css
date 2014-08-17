@@ -259,6 +259,47 @@ img{max-width:100%;}
 .button:hover{
 	background: #2A323A;
 }
+
+.grid3-buttons{
+	font-family: 'gandhi_sansregular';
+	color: #FFFFFF;
+	margin-top: 12px;
+	background: #665cbe;
+	display: inline-block;
+	padding: 15px 32px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.grid3-buttons:hover{
+	background: #2A323A;
+}
+.grid3-buttons-div ul li{
+	text-align:center;
+	display:inline-block;
+}
+.grid4-buttons{
+	font-family: 'gandhi_sansregular';
+	color: #FFFFFF;
+	margin-top: 12px;
+	background: #665cbe;
+	display: inline-block;
+	padding: 15px 32px;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.grid4-buttons:hover{
+	background: #2A323A;
+}
+.grid4-buttons-div ul li{
+	text-align:center;
+	display:inline-block;
+}
 .grid3-left ul{
 	margin: 0px 0px 9px 0px;
 }
