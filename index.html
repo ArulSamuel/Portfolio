@@ -17,10 +17,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
+			$(".grid3-buttons").click(function() {
+				displayProjects(this.id);				    			
+			});
 		});
+		var itemsJSON;
+		function loadJson() 
+		{
+            $(document).ready(function()
+            {
+                $.getJSON('data/items.json', function(json) {
+            	   	itemsJSON = json;
+        	    });
+            });
+        }
+        function displayProjects(projectType)
+		{	
+			$('#projects-div').empty();
+			//$('#courses-div').empty();
+			for(i=0	;i<itemsJSON.Projects.length;i++)
+			{
+				if(itemsJSON.Projects[i].project_type == projectType)
+				{
+					var prj = itemsJSON.Projects[i];
+					var description_parts = prj.description.split("|");
+					var description = "";
+					for (j = 0; j < description_parts.length; j++) { 
+   						description =description+'- '+description_parts[j]+'</br>';
+					}
+					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p></div><div class="clear"></div></div>';
+					$('#projects-div').append(str);
+				}
+			}	
+		}		
 		</script>
 	</head>
-	<body>
+	<body onload="loadJson();">
 		<!--start-wrap-->
 		<!--start-header-->
 	<div class="header">
@@ -76,27 +108,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="grid3">
 			<div class="grid3-header" id="works">
-				<h3>Project Name</h3>
-				<p>reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<h3>Projects</h3>
 			</div>
-			<div class="grid3-content">
-				<div class="grid3-left">
-					<h3>Project</h3>
-					 <p>Description of my activities</p>
-					<ul>
-						<li><a href="#"><img src="images/icon1.png" titl="Icon-Name" /></a></li>
-						<li><a href="#"><img src="images/icon2.png" titl="Icon-Name" /></a></li>
-						<li><a href="#"><img src="images/icon3.png" titl="Icon-Name" /></a></li>
-						<li><a href="#"><img src="images/icon4.png" titl="Icon-Name" /></a></li>
-					</ul>
-					<a class="button" href="#">View Project</a>
-				</div>
-				<div class="grid3-right">
-					<a href="#"><img src="images/v1.png" title="project-name" /></a>
-				</div>
-				<div class="clear"> </div>
+			<div class = "grid3-buttons-div" align = "center">
+				<ul>
+					<li><button class = "grid3-buttons" id = "WorkExp">Work Projects</button></li>
+					<li><button class = "grid3-buttons" id = "Academic">Academic</button></li>
+					<li><button class = "grid3-buttons" id = "Hobby">Hobby</button></li>
+				</ul>
 			</div>
-		</div>	
+			<div class = "button-g1-click-div" id = "projects-div">
+			    <!-- Content (Projects) added dynamically -->
+			</div>
+		</div>
 		<div class="grid3-header" id="courses">
 			<h3> My Courses </h3>
 			<p> My list of courses </p>
