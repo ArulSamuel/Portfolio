@@ -48,7 +48,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					for (j = 0; j < description_parts.length; j++) { 
    						description =description+'- '+description_parts[j]+'</br>';
 					}
-					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p></div><div class="clear"></div></div>';
+					var linktype = prj.link_type;
+					var linkcode = "";
+					if(linktype == "github")
+					{
+						alert("Here it is "+prj.link);
+						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/octocat.png" titl="Github Link" /a></li>';
+					}
+					else if(linktype != "")
+					{
+						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/website_icon.png" titl="Project Link" /a></li>';
+					}
+					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p><ul>'+linkcode+'</ul><a class="button" href="#">View Project</a></div><div class="clear"></div></div>';
 					$('#projects-div').append(str);
 				}
 			}	
@@ -155,7 +166,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    <!-- Content (Courses) added dynamically -->
 			</div>
 		</div>
-		
 		<div class="grid3-header" id="aboutMe">
 			<h3> About Me </h3>
 			<p> I love to do ..... </p>
