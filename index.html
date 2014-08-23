@@ -31,6 +31,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             {
                 $.getJSON('data/items.json', function(json) {
             	   	itemsJSON = json;
+            	   	displayProjects("WorkExp");
+            	   	displayCourses("USC");
         	    });
             });
         }
@@ -75,7 +77,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					var course = itemsJSON.Courses[i];
 					var course_name = course.course_name;
 					var learning = course.learning;
-					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+course_name+'</h3>,<h4>'+courseSource+'</h4><br/><p>'+learning+'</p></div></div>';
+					var str = '<div class="grid3-content"><div class="grid3-left"><h4>'+course_name+'</h4><br/></div></div>';
+					//var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+course_name+'</h3>,<h4>'+courseSource+'</h4><br/><p>'+learning+'</p></div></div>';
 					$('#courses-div').append(str);
 				}
 			}	
@@ -116,23 +119,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="grid2" id="skills">
 			<h3>My Skills</h3>
-			<p></p>
 			<ul>
-				<li>
-					<img src="images/s2.png" title="Artdirector" />
-					<a href="#">Art Director</a>
-				</li>
-				<li>
-					<img src="images/s6.png" title="Artdirector" />
-					<a href="#">Art Making</a>
-				</li>
-				<li>
-					<img src="images/s3.png" title="Artdirector" />
-					<a href="#">Photo Editor</a>
-				</li>
-				<li>
-					<img src="images/g6.png" title="Artdirector" />
-					<a href="#">graphic design</a>
+				<li class="skills">
+					<img src="images/skills_wc_img.png" title="My Skills" />
+					<a rel = "external" href="http://www.linkedin.com/in/arulsamuelrajkumar/">Skill Cloud</a>
 				</li>
 			</ul>
 		</div>
