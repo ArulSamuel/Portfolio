@@ -26,7 +26,7 @@ def writeToJSON(jsonFile):
 def main():
 	csvProjectFile = "../data/projects.csv"
 	csvCourseFile = "../data/courses.csv"
-	jsonFile = "../templates/portfolio/data/items.json"
+	jsonFile = "../data/items.json"
 
 	dictKey = "Projects"
 	readCSVFile(csvProjectFile,dictKey)

@@ -55,13 +55,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					if(linktype == "github")
 					{
 						alert("Here it is "+prj.link);
-						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/octocat.png" titl="Github Link" /a></li>';
+						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/octocat.png" titl="Github Link"></img></a></li>';
 					}
 					else if(linktype != "")
 					{
-						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/website_icon.png" titl="Project Link" /a></li>';
+						linkcode = '<li><a href="'+prj.link+'" class="iconlink"><img src="images/website_icon.png" titl="Project Link"></img></a></li>';
 					}
-					var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p><ul>'+linkcode+'</ul><a class="button" href="#">View Project</a></div><div class="clear"></div></div>';
+					var name_context = "";
+					if(projectType == "Hobby")
+					{
+						name_context = '<h4>'+prj.project_name+'</h4>';
+					}
+					else if(projectType == "WorkExp")
+					{
+						name_context = '<h4>'+prj.project_context+', '+prj.project_institution+'</h4>';
+					}
+					else
+					{
+						name_context= '<h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+', '+prj.project_institution+'</h4>';
+					}
+					//var str = '<div class="grid3-content"><div class="grid3-left"><h3>'+prj.project_name+'</h3><br/><h4>'+prj.project_context+' , '+prj.project_institution+'</h4><p><br/>'+description+'</p><ul>'+linkcode+'</ul><a class="button" href="#">View Project</a></div><div class="clear"></div></div>';
+					var str = '<div class="grid3-content"><div class="grid3-left"><font color = "Maroon"><b>'+name_context+'</b></font><p></br>'+description+'</p><ul>'+linkcode+'</ul></div><div class="clear"></div></div>';
 					$('#projects-div').append(str);
 				}
 			}	
@@ -115,7 +129,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="grid1" id="me">
 			<a href="#"><img src="images/profPic.png" title="Arul Samuel Rajkumar" /></a>
 			<h3>Hi,I'm Arul</h3>
-			<p>I'm a Computer Science Grad Student at USC.  <a href="#aboutMe">More about me</a>. </p>
+			<p>I'm a Computer Science Grad Student at USC. Fascinated by Data Science challenges, new Technologies and specializing in automating data wrangling tasks is a short and quick intro...  <a href="#aboutMe">More about me</a>. </p>
 		</div>
 		<div class="grid2" id="skills">
 			<h3>My Skills</h3>
@@ -156,18 +170,72 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    <!-- Content (Courses) added dynamically -->
 			</div>
 		</div>
-		<div class="grid3-header" id="aboutMe">
-			<h3> About Me </h3>
-			<p> I love to do ..... </p>
+		<div  id="aboutMe">
+		<div class="grid3-header">
+				<h3>About Me</h3>
 		</div>
-
+		<table border="0" cellpadding="10px" cellspacing="10px">
+			<tr>
+			<td> <!-- valign="middle" -->
+				<img src="images/profPic.png" title="Arul" />				
+			</td>
+			<td>
+				<table cellpadding="10px">
+				<tr>
+					<td>Name</td>
+					<td>Arul Samuel Rajkumar</td>
+				</tr>
+				<tr>
+					<td>Current work</td>
+					<td>Data Analyst (Student Worker) at <b> USC Office of Institutional Research </b></td>
+				</tr>
+				<tr>
+					<td>Past Experience</td>
+					<td>Data Engineer (Intern) at <b>Wavelio</b>, May 2014 - Aug 2014 <br/>
+						Systems Engineer, J2EE Developer at <b>Infosys Ltd.</b>, Aug 2011 - Jun 2013
+					</td>
+				</tr>
+				<tr>
+					<td>Education</td>
+					<td><b>University of Southern California</b>, Los Angeles, California, USA,  Aug 2013 - May 2015 <br/>
+						<b>Anand Institute of Higher Technology</b>, Anna University, Chennai, India, July 2007 - Jun 2011<br/>
+						<b>St. John's English School and Junior College</b>, Chennai, India, Jun 1993 - May 2007
+					</td>
+				</tr>
+				<tr>
+					<td>Interests</td>
+					<td>My interests include <b>Social Media Analytics</b>, <b>Data Analysis</b> and <b>Automation of Data Wrangling Tasks</b>.</br>I also love reading blogs, engaging in brainstorming sessions and taking part in Hackathons.</br>My other passions include Psychology and Philanthropy.
+					</td>
+				</tr>
+				<tr>
+					<td>Strengths</td>
+					<td>Quick Learner, Visualizing Ability, Design</td>
+				</tr>
+		<!--	<tr>
+					<td>Ambition</td>
+					<td>Data Scientist</td>
+				</tr>
+		-->
+				<tr>
+					<td>Other Activities</td>
+					<td>National Cadet Corps, Infosys Colors Team</td>
+				</tr>
+				</table>
+			</td>
+			</tr>
+		</table>
+		</div>
 		<div class="catch-me" id="contact">
-			<h3>Catch me by ...</h3>
-			<p>These will help you to reach me</p>
+			<h3>My Contact</h3>
+			<p>You can reach at </p>
 			<ul>
-				<li><a href="#"><img src="images/facebook.png" title="facebook" /></a></li>
+				<!--<li><a href="#"><img src="images/facebook.png" title="facebook" /></a></li>
 				<li><a href="#"><img src="images/rss.png" title="Rss" /></a></li>
-				<li><a href="#"><img src="images/googlepluse.png" title="Googlepluse" /></a></li>
+				<li><a href="#"><img src="images/googlepluse.png" title="Googlepluse" /></a></li> -->
+				<li>LinkedIn : <a href="www.linkedin.com/in/arulsamuelrajkumar/" class="iconlink"><img src="images/linkedin_logo.png" title="LinkedIn" /></a></li>
+				<li>Github : <a href="#" class="iconlink"><img src="images/octocat.png" title="Googlepluse" /></a></li>
+				<li>Official Email : <a href="#"><i>arajkuma@usc.edu</i></a></li>
+				<li>Personal Email : <a href="#"><i>arulrs@yahoo.com</i></a></li>
 			</ul>
 		</div>
 		<div class="footer">

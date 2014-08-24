@@ -72,7 +72,7 @@
         }, 
         {
             "projects": "", 
-            "course_name": "Software Engineering - I, CSCI 577B", 
+            "course_name": "Software Engineering - II, CSCI 577B", 
             "course_from": "USC", 
             "learning": "a", 
             "verification": ""
@@ -178,12 +178,12 @@
             "project_type": "WorkExp", 
             "project_context": "Systems Engineer, J2EE technology", 
             "link_type": "", 
-            "project_institution": "Infosys Ltd, Chennai, India"
+            "project_institution": "Infosys Ltd., Chennai, India"
         }, 
         {
             "project_end": "14-Jan", 
-            "project_name": "Analysis of Web Server Log                    ", 
-            "description": "Developed code to analyze the web server log using Cloudera CDH and mapreduce programming paradigm.", 
+            "project_name": "Analysis of Web Server Log", 
+            "description": " Developed code to analyze the web server log using Cloudera CDH and mapreduce programming paradigm.", 
             "project_start": "14-Jan", 
             "link": "", 
             "project_type": "Hobby", 

@@ -4,8 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-/* reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* reset */																											/*after em,img,ins*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,caption,tfoot,thead,th,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
@@ -83,13 +83,13 @@ img{max-width:100%;}
 	-webkit-transition: 0.5s ease;
 }
 .top-nav li.active> a, .top-nav li> a:hover {
-	border-top: 5px solid #665cbe;
-	color: #665cbe;
+	border-top: 5px solid #3B5998;
+	color: #3B5998;
 }
 /*---End-header---*/
 /*---content----*/
 .grid1{
-	background:#665cbe;
+	background:#3B5998;
 	text-align:center;
 	padding: 50px 0px;
 	position: relative;
@@ -170,7 +170,7 @@ img{max-width:100%;}
 	-webkit-transition: 0.5s ease;
 }
 .grid2 ul li a:hover{
-	color:#665cbe;
+	color:#3B5998;
 }
 /*----grid3-----*/
 .grid3{
@@ -248,7 +248,7 @@ img{max-width:100%;}
 	font-family: 'gandhi_sansregular';
 	color: #FFFFFF;
 	margin-top: 12px;
-	background: #665cbe;
+	background: #3B5998;
 	display: inline-block;
 	padding: 15px 32px;
 	text-transform: uppercase;
@@ -265,7 +265,7 @@ img{max-width:100%;}
 	font-family: 'gandhi_sansregular';
 	color: #FFFFFF;
 	margin-top: 12px;
-	background: #665cbe;
+	background: #3B5998;
 	display: inline-block;
 	padding: 15px 32px;
 	text-transform: uppercase;
@@ -285,7 +285,7 @@ img{max-width:100%;}
 	font-family: 'gandhi_sansregular';
 	color: #FFFFFF;
 	margin-top: 12px;
-	background: #665cbe;
+	background: #3B5998;
 	display: inline-block;
 	padding: 15px 32px;
 	text-transform: uppercase;
@@ -318,7 +318,7 @@ img{max-width:100%;}
 	font-size: 1.2em;
 }
 .twiiter-box p a{
-	color:#665cbe;
+	color:#3B5998;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
@@ -329,7 +329,7 @@ img{max-width:100%;}
 }
 /*---contact----*/
 .contact{
-	background: #665cbe;
+	background: #3B5998;
 	text-align: center;
 	padding: 50px 0px;
 }
@@ -433,7 +433,7 @@ img{max-width:100%;}
 	text-transform: uppercase;
 }
 .footer p a{
-	color:#665cbe;
+	color:#3B5998;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
